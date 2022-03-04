@@ -1,0 +1,73 @@
+<div>
+
+<nav class="navbar navbar-expand-md sticky-top">
+      <div class="container-fluid">
+        <a  class="navbar-branch" href="https://facebook.com/thanhlong138"> <!-- Logo -->
+            <img src="img/TLlogo.jpg" alt="Lỗi hiển thị" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-toogle="collapse" data-target="#navbarResponsible">
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsible">
+          <ul class="navbar-nav  ml-auto">
+            <li class="nav-item" style="margin-right: 60px; margin-top: 6px;">             
+              <div class="input-group mb-3">
+                <input id="search-value" style="width: 400px;" type="text" class="form-control" placeholder="Nhập để tìm kiếm...">
+                <div class="input-group-append">
+                  <button id="searchbtn"  onclick="Search();" class="btn" type="submit">Search</button>
+                </div>
+              </div>
+            </li>
+
+            
+            <li class="nav-item">
+              <a class="nav-link active" href="index.php">Trang chủ</a>
+            </li>          
+            <li class="nav-item">
+              <a class="nav-link" href="index.php?controller=cart">Giỏ hàng</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.php">Đăng nhập</a>
+            </li>          
+          </ul>
+        </div>
+      </div>
+    </nav> 
+    <?php
+?>
+<!-- Carousel -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner" >
+   
+    <div class="carousel-item active">  
+      <img src="img/book4.jpg" alt="Los Angeles" width="100%">
+    </div>
+    <div class="carousel-item"> 
+      <img src="img/banner1.jpg" alt="Chicago" width="100%">
+    </div>
+    <div class="carousel-item">
+      <img src="img/banner3.jpg" alt="New York" width="100%">
+    </div>
+  </div>
+  
+
+
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>

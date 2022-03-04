@@ -1,0 +1,30 @@
+#image-book{
+    margin-right: 20px;
+}
+.navbar{
+    background-color:#000011  ;
+ }
+ #searchbtn{
+    background-color: pink !important; 
+ }
+ 
+ .navbar li a {
+    color: white;
+    font-size: 20px;
+  
+ }
+ .navbar li a:hover{
+    color: pink;
+    font-weight: bold;
+ }
+ .footer a,p,h4{
+    /* margin-left: 20px; */
+    color: black;
+ }
+ .footer li{
+    list-style: none;
+ }
+ /* table tr td label{
+    font-size: 100px;
+    font-style: italic; */
+ /* } */
